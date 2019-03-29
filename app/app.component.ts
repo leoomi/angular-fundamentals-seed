@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { PassengerDashboardComponent } from './passenger-dashboard/containers/passenger-dashboard/passenger-dashboard.component';
+import { Component } from '@angular/core'
 
 @Component({
   selector: 'app-root',
   styleUrls: ['app.component.scss'],
   template: `
     <div class="app">
-      Hello!
+      <passenger-dashboard></passenger-dashboard>
     </div>
   `
 })
